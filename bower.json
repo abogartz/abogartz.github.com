@@ -1,0 +1,20 @@
+{
+  "name": "abogartz.github.com",
+  "version": "0.2.13",
+  "homepage": "https://github.com/abogartz/abogartz.github.com",
+  "authors": [
+    "Alex Bogartz <alex@jumpkick.pro>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.3",
+    "greensock": "~1.16.1"
+  }
+}
