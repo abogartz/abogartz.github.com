@@ -2,7 +2,7 @@
 layout: page
 title: Welcome!
 comments: true
-tagline: Supporting tagline
+
 ---
 {% include JB/setup %}
 
