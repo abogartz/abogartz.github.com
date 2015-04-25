@@ -1,11 +1,10 @@
 ---
 layout: page
-title: A blog about small victories in the battle to master web development
+tagline: A blog about small victories in the battle to master web development
 comments: true
 
 ---
 
-#Latest Post
 <div class="blog-index">  
   {% assign post = site.posts.first %}
   {% assign content = post.content %}
