@@ -22,7 +22,7 @@ After you download a dozen third party libraries, this can get out of hand. To m
 
 To learn more about Gulp, see their homepage. You need to install NodeJS and [Gulp](http://gulpjs.com) for this to work.
 
-Here is my package.json file (this goes in the root of you project).
+Here is my package.json file (this goes in the root of your project).
 
     {
       "name": "GulpBower",
