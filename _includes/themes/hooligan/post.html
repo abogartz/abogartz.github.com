@@ -29,6 +29,16 @@
   </div>
   
   <div class="span4">
+
+      <section>
+          <div class="nav navbar-nav navbar-form dropdown">
+              <!-- Search text box -->
+              <input id="search_input" data-toggle="dropdown" type="text" class="form-control" placeholder="Search" autofocus="autofocus" autocomplete="off" onkeyup="checkTextField();" />
+              <!-- Search results styled as a dropdown menu -->
+              <ul id="search_results" class="dropdown-menu" role="menu">
+              </ul>
+          </div>
+      </section>
     <section>
       <h4>Published</h4>
       <div class="date"><span>{{ page.date | date_to_long_string }}</span></div>
