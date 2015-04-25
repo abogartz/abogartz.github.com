@@ -1,14 +1,16 @@
 ---
 layout: page
-title: Welcome!
+title: A blog about small victories in the battle to master web development
 comments: true
 
 ---
-{% include JB/setup %}
 
-I've decided to dive into the world of blogging about my work. It's mainly because I think my friends and family are thoroughly bored with my incoherent babbling about some new Yeoman task I wrote or why I think Typescript is so cool. But also because I hope to post some things which will help people who are dealing with the same problems and frustrations I deal with every day.
-
-And with that, I'll see you guys in the comments section.
+#Latest Post
+<div class="blog-index">  
+  {% assign post = site.posts.first %}
+  {% assign content = post.content %}
+  {% include post_detail.html %}
+</div>
 
 ###Recent posts
 <ul class="posts">  
