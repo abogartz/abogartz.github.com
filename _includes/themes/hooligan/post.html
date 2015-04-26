@@ -11,6 +11,12 @@
   <div class="span8">
     {{ content }}
     <hr>
+
+      <a class="click" onclick="" href="http://www.facebook.com/dialog/feed?app_id=343922935812325&link=http://abogartz.github.io{{ page.url }}&message={{ page.title }}&display=popup&redirect_uri=http://abogartz.github.io{{ page.url }}" target="_blank">
+          <button class='zocial facebook'>Share on Facebook</button>
+      </a>
+
+      <hr>
     <div class="pagination btn-group">
       {% if page.previous %}
         <a class="btn prev" href="{{ BASE_PATH }}{{ page.previous.url }}" title="{{ page.previous.title }}">&larr; Previous</a>
@@ -25,6 +31,7 @@
       {% endif %}
     </div>
     <hr>
+
     {% include JB/comments %}
   </div>
   
